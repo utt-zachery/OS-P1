@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd ./PROCESS_LOG_TAR_GZ_HERE 
 tar -xzvf process_log.tar.gz
