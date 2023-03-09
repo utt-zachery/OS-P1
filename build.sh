@@ -11,3 +11,6 @@ cp libproclog.so ../libproclog.so
 cd ..
 g++ -c src/Connector.cpp -I./TAR_GZ_HERE/process_log -I./include
 g++ -shared -o libconnector.so Connector.o
+
+chmod +x ./runTest.out
+sudo ./runTest.out
